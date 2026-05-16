@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .menu {
+            float: left;
+            width: 20%;
+            text-align: center;
+        }
+
+            .menu a {
+                background-color: #BDB76B;
+                padding: 8px;
+                margin-top: 7px;
+                display: block;
+                width: 100%;
+                color: black;
+            }
+
+        .main {
+            float: left;
+            width: 60%;
+            padding: 0 20px;
+        }
+
+        .right {
+            background-color: #8FBC8F;
+            float: left;
+            width: 20%;
+            padding: 15px;
+            margin-top: 7px;
+            text-align: center;
+        }
+
+
+        #para1 {
+            color: red;
+            }
+	    #para2 {
+            color: blue;
+            }
+		#para3 {
+            color: green;
+            }
+			
+        @media only screen and (max-width: 620px) {
+            /* For mobile phones: */
+            .menu, .main, .right {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body style="font-family:Verdana; color:#000000;">
+
+    <div style="background-color:#FFD700; padding:15px; text-align:center;">
+        <h1>Группа проектов "Робостанция"</h1>
+		<h4>Подпроект: Дрон Лига</h4>
+ 
+    </div>
+
+    <div style="overflow:auto">
+        <div class="menu">
+            <a href="index.html">Главная</a>
+            <a href="about_project.html">О проекте</a>
+            <a href="uchastniki.html">Участники</a>
+            <a href="jurnal.html">Журнал</a>
+            <a href="gallery.html">Ресурсы</a>
+        </div>
+
+        <div class="main">
+            <h2> Ресурсы</h2>
+            <p>Заказчик и главный партнер проекта: <a href="https://xn--80abwtcbllj6b9f.xn--p1ai/">Робостанция</a> на ВДНХ</p>
+
+        </div>
+
+       <div class="right">
+            <h2>Московский политех</h2>
+            <p>Флагман проектного обучения.</p>
+        </div>
+    </div>
+
+    <footer style="background-color:#e5e5e5; text-align:center; padding:10px; margin-top:7px;">
+    </footer>
+
+</body>
+</html>
