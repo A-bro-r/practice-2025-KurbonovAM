@@ -27,4 +27,4 @@ C: Coding A Sudoku Solver in C [video](https://www.youtube.com/playlist?list=PLk
 
 ## Период проведения
 
-С 03 февраля 2025 г. по 24 мая 2025 г.
+С 03 февраля 2026 г. по 25 мая 2026 г.
